@@ -302,14 +302,7 @@ export class GuiModel {
                                 "form": "FriendForm"
                             }
                         },
-                        {
-                            "type": "list",
-                            "icon": "fa-user",
-                            "color": "blue",
-                            "search": true,
-                            "url": "/friend",
-                            "page": "friendsactivitiespage"
-                        },
+                        
                     ]
                 },
                 {
@@ -346,33 +339,7 @@ export class GuiModel {
                         },
                     ]
                 },
-                {
-                    "id": "locationsummarypage",
-                    "elementList": [
-                        {
-                            "type": "backbutton",
-                        },
-                        {
-                            "type": "button",
-                            "name": "EditLocation",
-                            "icon": "fa-cubes",
-                            "color": "green",
-                            "form": {
-                                "form": "LocationForm"
-                            }
-                        },
-                        {
-                            "type": "list",
-                            "icon": "fa-calendar",
-                            "color": "orange",
-                            "search": true,
-                            "url": "/location/:locationKey/activity",
-                            "form": {
-                                "form": "ActivityForm"
-                            }
-                        },
-                    ]
-                },
+                
 
                 {
                     "id": "locationsummarypage",
@@ -446,16 +413,7 @@ export class GuiModel {
                                 "form": "LocationForm"
                             }
                         },
-                        {
-                            "type": "list",
-                            "icon": "fa-home",
-                            "color": "blue",
-                            "search": true,
-                            "url": "/location",
-                            "form": {
-                                "form": "LocationForm"
-                            }
-                        },
+                        
                         {
                             "type": "list",
                             "icon": "fa-home",
